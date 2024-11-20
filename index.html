@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="author" content="Ayoub Fetti">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <title>Nike Store</title>
@@ -124,9 +125,9 @@
             </div>
             <input type="password" class="payInput" placeholder="Card Number">
             <div class="cardInfo">
-              <input type="text" class="payInput sm" placeholder="mm">  
-              <input type="text" class="payInput sm" placeholder="yyyy">  
-              <input type="text" class="payInput sm" placeholder="cvv">  
+              <input type="text" class="payInput sm" placeholder="mm" maxlength="2">  
+              <input type="text" class="payInput sm" placeholder="yyyy" maxlength="4">  
+              <input type="text" class="payInput sm" placeholder="cvv" maxlength="3">  
             </div>
             <button class="payButton">Checkout</button>
             <span class="close">X</span>
@@ -143,6 +144,16 @@
             <img src="https://i.pinimg.com/474x/2d/ec/fe/2decfebe001a6a497e9493c480725fbb.jpg" alt="#" width="400px" height="600px" class="galleryImg">
         </div>
     </section>
+    <footer class="footer">
+        <div class="footerContent">
+            <p class="footerTitle">&copy; 2023 Nike Store. All Rights Reserved.</p>
+            <div class="socialIcons">
+                <a href="https://www.facebook.com/" class="socialIcon">Facebook</a>
+                <a href="https://www.x.com/" class="socialIcon">Twitter</a>
+                <a href="https://www.instagram.com/" class="socialIcon">Instagram</a>
+            </div>
+        </div>
+    </footer>
     <script src="main.js"></script>
 </body>
 </html>

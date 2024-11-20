@@ -1,3 +1,4 @@
+
 const wrapper = document.querySelector('.sliderWrapper');
 const menuItems = document.querySelectorAll('.menuItem');
 const products = [
@@ -147,7 +148,12 @@ menuItems.forEach((item,index)=> {
  close.addEventListener('click', ()=>{
   payment.style.display = 'none';
  })
- 
+  
+ // function after fill the  form
+ let payButton = document.querySelector('.payButton');
+ payButton.addEventListener('click' , ()=>{
+  payment.style.display = 'none';
+ });
 
 
 
