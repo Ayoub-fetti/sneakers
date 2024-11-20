@@ -133,6 +133,20 @@ menuItems.forEach((item,index)=> {
     size.style.color = 'white';
   });
  });
+
+ const productButton = document.querySelector('.productButton');
+ const payment = document.querySelector('.payment');
+ const close = document.querySelector('.close');
+
+ // function for open payment 
+ productButton.addEventListener('click', ()=>{
+  payment.style.display = 'flex';
+ });
+
+ // function for close payment
+ close.addEventListener('click', ()=>{
+  payment.style.display = 'none';
+ })
  
 
 

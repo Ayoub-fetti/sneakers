@@ -26,6 +26,7 @@
  .searchInput{
     border: none;
     background-color: transparent;
+    color: #fff;
  }
  .searchInput::placeholder{
     color: lightgray;
@@ -199,7 +200,7 @@
     right: 0;
     margin: auto;
     padding: 10px 50px;
-    display: flex;
+    display: none;
     flex-direction: column;
     -webkit-box-shadow: 5px 5px 9px 0px rgba(168,161,168,0.69);
     -moz-box-shadow: 5px 5px 9px 0px rgba(168,161,168,0.69);
@@ -209,6 +210,7 @@
     font-size: 20px;
     color: rgb(141, 136, 136);
     margin-bottom: 10px;
+    margin-top: 15px;
   }
   label{
    font-size: 14px;
@@ -278,5 +280,64 @@
     color: black;
     font-size: 18px;
   }
+ 
+  .cardIcons{
+    display: flex;
+  }
+  .cardIcon{
+    margin-right: 15px;
+  }
+  .cardInfo{
+    display: flex;
+    justify-content: space-between;
+  }
+  .sm{
+    width:20%;
+  }
+  .payButton{
+    position: absolute;
+    height: 40px;
+    bottom: -40px;
+    width: 100%;
+    left: 0;
+    -webkit-box-shadow: 5px 5px 9px 0px rgba(168,161,168,0.69);
+    -moz-box-shadow: 5px 5px 9px 0px rgba(168,161,168,0.69);
+    box-shadow: 5px 5px 9px 0px rgba(168,161,168,0.69);
+    background-color: #369e62;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  .payButton:hover{
+    color: #369e62;
+    background-color: #fff;
+    border: 2px solid #369e62;
+  }
+  .close{
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    color: gray;
+    font-size: 20px;
+    cursor: pointer;
+  }
+  .close:hover{
+    color: black;
+    font-size: 25px;
+  }
+ .gallery{
+  display: flex;
+  justify-content: center;
+  margin-top: 150px;
+  margin-bottom: 40px;
+  gap: 50px;
+ }
+ .galleryItem{
+  -webkit-box-shadow: 9px 7px 17px 0px rgba(0,0,0,0.86);
+-moz-box-shadow: 9px 7px 17px 0px rgba(0,0,0,0.86);
+box-shadow: 9px 7px 17px 0px rgba(0,0,0,0.86);
+ }
   
  
